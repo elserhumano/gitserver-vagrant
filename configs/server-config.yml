@@ -1,11 +1,10 @@
 ---
 
-# Example
-# - name: falvarix-r9
-#   groups: '/FAlvarix DevOps'
-#   box: generic/rocky9
-#   memory: 512
-#   cpus: 1
-#   ip: '192.168.167.9'
-#   general-script: 'scripts/nothing.sh'
-#   box-script: 'shared/falvarix/nothing.sh'
+- name: giteax
+  groups: '/GITEA'
+  box: ubuntu/jammy64
+  memory: 1024
+  cpus: 2
+  ip: '192.168.167.60'
+  general-script: 'scripts/nothing.sh'
+  box-script: 'shared/nothing.sh'
