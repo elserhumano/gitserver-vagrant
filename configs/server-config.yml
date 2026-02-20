@@ -3,7 +3,7 @@
 - name: giteax
   groups: '/GITEA'
   box: ubuntu/jammy64
-  memory: 1024
+  memory: 1536
   cpus: 2
   ip: '192.168.167.60'
   general-script: 'scripts/nothing.sh'
