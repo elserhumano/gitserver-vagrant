@@ -1,0 +1,17 @@
+---
+
+- file:        id_rsa.pub
+  source:      '/Users/alvarfe/.ssh/vbox/id_rsa.pub'
+  destination: '$HOME/.ssh/public_notebook_key'
+
+- file:        vbox.pub.key
+  source:      '/Users/alvarfe/.ssh/vbox/vbox.pub.key'
+  destination: '$HOME/.ssh/public_vbox_key'
+
+- file:        bashrc
+  source:      '/Users/alvarfe/.ssh/vbox/.bashrc'
+  destination: '$HOME/.ssh/.bashrc'
+
+- file:        vimrc
+  source:      '/Users/alvarfe/.ssh/vbox/.vimrc'
+  destination: '$HOME/.ssh/.vimrc'

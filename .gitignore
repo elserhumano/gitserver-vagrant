@@ -1,0 +1,5 @@
+**/.vagrant/*
+**/.resource_types/*
+**/.rerun.json
+**/modules/*
+
